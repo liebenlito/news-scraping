@@ -39,7 +39,7 @@ def get_articles_kompas(url=" "):
                 'description': description["content"],
                 'url': url["content"],
                 'published_date': published_date["content"],
-                'article': filter_contents
+                'content': filter_contents
                 }
         return data
     
